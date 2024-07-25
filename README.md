@@ -1,9 +1,7 @@
 # SmartHome
 
 ## **Project Overview: Optimizing Supply Chain and Production Planning**
-
-![](assets/images/smarthomeinc.jpg)
-
+![Alt text](assets/images/smarhomeinc.jpg)
 ### **Business Challenge**
 
 SmartHome Solutions Inc. faces a critical challenge in optimizing its supply chain and production planning. The current approach, based on historical data and market forecasts, presents several obstacles:
