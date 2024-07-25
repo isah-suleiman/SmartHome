@@ -215,3 +215,196 @@ Based on customer segments, we observed the following:
      - For City C, Type 1 (adults with high income) is the strongest segment, while Type 6 is the least common.
 
 With these segmentations, we can now analyze sales data to identify product preferences and buying behaviors within each segment. This will help align production with customer demands and optimize inventory management.
+
+## **Dataset Merging and Product Preference Analysis**
+
+### **Steps:**
+
+1. **Merging Datasets:**
+   - Use the Power Pivot function in Excel to merge relevant datasets.
+   
+2. **Analyzing Product Preferences by Customer Segment:**
+   - Identify popular products among customer segments and geographic locations.
+   - Look for notable trends or patterns in purchasing behavior across these segments.
+   
+   - **Calculate Top Products for Each Segment:**
+     - Create pivot tables in Excel to aggregate sales by product SKU within each customer segment.
+     - Use the 'Sum' function in the pivot table to calculate the total sales quantities.
+     - Sort the results to identify the top-selling products in each segment.
+
+### **Results:**
+
+The analysis reveals the top-selling products in each segment based on the quantity sold:
+
+1. **Top Products for Each Customer Segment:**
+   - **Type 1:** SKUs 21, 56, 20, 69, and 79.
+   - **Type 2:** SKUs 36, 83, 41, 93, and 81.
+   - **Type 3:** SKUs 83, 78, 99, 67, and 58.
+   - **Type 4:** SKUs 89, 9, 90, 77, and 87.
+   - **Type 5:** SKUs 90, 35, 61, 19, and 94.
+   - **Type 6:** SKUs 87, 80, 78, 8, and 85.
+
+2. **Top Products for Each Geographic Location:**
+   - **City A:** SKUs 34, 69, 98, 68, and 14 are leading.
+   - **City B:** SKUs 95, 85, 91, 1, and 53 are most popular.
+   - **City C:** SKUs 79, 67, 83, 77, and 10 are in high demand.
+
+3. **Sales Trend by Month for High-Value SKUs:**
+   - To understand sales trends over time, create a bar chart showing total sales per month in 2026.
+   - Focus on the following:
+     - Add the Value column from the inventory data to the merged customer-sales data.
+     - Select appropriate time intervals (daily, weekly, or monthly) for analysis.
+     - Plot sales trends for the top SKUs in each demographic and geographic location.
+     - Observe seasonal patterns, growth or decline trends, and significant fluctuations.
+
+### **Observations:**
+
+- In general, sales were highest in January and lowest in March.
+- By customer types:
+  - Most sales occurred in January for all segments except Type 4, where February had higher sales.
+- By customer type for each city:
+  - City A: More sales in January, except for Type 3 and Type 6 customers (higher sales in February).
+  - City B: January sales dominate, except for Type 5 and Type 6 customers (more sales in February).
+  - City C: General trend of more sales in February, except for Type 1 and Type 2 customers (higher sales in January).
+
+## **Dashboard Design, Insights, and Recommendations**
+
+### **1. Dashboard Design:**
+   - Create a comprehensive dashboard to consolidate all findings.
+   - Visualize key metrics and insights for easy reference.
+
+### **2. Customer Types by Location:**
+   - **Objective:** Understand customer popularity in each city.
+   - **Visualization:**
+     - Bar chart showing customer count by city.
+   - **Insight:**
+     - Identify which cities have the highest customer base.
+
+### **3. Customer Types by Quantity Sold:**
+   - **Objective:** Assess customer buying behavior.
+   - **Visualization:**
+     - Line chart showing monthly sales trend for each customer type.
+   - **Insight:**
+     - Observe which customer segments contribute most to sales.
+
+### **4. Sales Quantity by Customer Type (Monthly):**
+   - **Objective:** Analyze monthly sales by customer segment.
+   - **Visualization:**
+     - Stacked bar chart showing sales quantity for each customer type per month.
+   - **Insight:**
+     - Identify seasonal patterns or trends.
+
+### **5. Current Inventory Levels by SKU:**
+   - **Objective:** Assess inventory status.
+   - **Visualization:**
+     - Heatmap or table showing inventory levels for top SKUs by customer segment.
+   - **Insight:**
+     - Determine which SKUs need attention (low stock, excess stock).
+
+### **6. Out-of-Stock Analysis:**
+   - **Objective:** Identify out-of-stock items and replenishment needs.
+   - **Visualization:**
+     - Alert or indicator for out-of-stock SKUs.
+     - Days until replenishment (if known).
+   - **Insight:**
+     - Prioritize restocking based on urgency.
+
+### **7. Current Production Capacity by SKU (in Hours):**
+   - **Objective:** Understand production capacity.
+   - **Visualization:**
+     - A bar chart showing the production capacity of each SKU.
+   - **Insight:**
+     - Ensure production aligns with demand.
+
+### **8. Summary Cards:**
+   - Display key metrics:
+     - Number of SKUs
+     - Number of Customers
+     - Total Quantity of SKUs sold
+     - Customer Segment breakdown
+
+### **Strategic Recommendations:**
+   - Based on insights, consider the following:
+     - Adjust production schedules to meet demand.
+     - Optimize inventory levels for top-selling SKUs.
+     - Prioritize restocking for out-of-stock items.
+     - Explore expansion opportunities in high-popularity cities.
+
+## **Insights and Recommendations for SmartHome Solutions Inc.**
+
+### **General Insights:**
+
+1. **Diverse Customer Base:**
+   - The even distribution across different ages and various gender groups indicates a wide-ranging customer base.
+
+2. **Income and Age Group Correlation:**
+   - The majority of customers are adults with high incomes, suggesting a focus on SKUs for this customer segment.
+
+3. **Geographic Variability:**
+   - Different preferences in different cities highlight the need for region-specific strategies.
+
+4. **Product Preferences by Segment:**
+   - Each customer segment (Type 1 to Type 6) exhibits distinct preferences for specific SKUs, emphasizing the importance of tailored product offerings.
+
+5. **High-Value SKUs:**
+   - Identifying top SKUs purchased by customers indicates focused demand for specific products.
+
+6. **Sales Variability and Seasonality:**
+   - Sales vary across months and locations and are influenced by different customer types.
+
+### **Recommendations:**
+
+1. **Product Strategy:**
+   - **Diversification:**
+     - Develop products that cater to the diverse needs of different age and income groups.
+   - **Tailoring for High-Value SKUs:**
+     - Focus production efforts on top SKUs within each customer segment to ensure availability.
+
+2. **Inventory Management:**
+   - **Dynamic Stocking:**
+     - Adjust inventory levels based on sales trends for high-value SKUs within each customer type.
+   - **Regional Focus:**
+     - Customize inventory based on regional preferences in Cities A, B, and C.
+
+3. **Marketing and Sales:**
+   - **Segment-Specific Campaigns:**
+     - Create targeted marketing campaigns for each customer segment, highlighting their preferred SKUs.
+   - **Promotional Timing:**
+     - Align marketing efforts with peak sales periods to maximize impact.
+
+4. **Production Planning:**
+   - **Demand-Driven Production:**
+     - Adapt production schedules based on sales trends for top SKUs within each customer segment.
+   - **Efficiency in Low-Demand Products:**
+     - Adopt lean production practices for lower-value SKUs to minimize excess inventory.
+
+5. **Regional Strategies:**
+   - **Localized Offerings:**
+     - Customize product offerings and stock levels based on preferences in each city.
+   - **Distribution Optimization:**
+     - Optimize logistics and distribution to meet unique demands in different geographic locations.
+
+6. **Data-Driven Approach:**
+   - **Continuous Monitoring:**
+     - Regularly analyze sales data to adapt strategies in real time.
+   - **Feedback Loops:**
+     - Use customer feedback to refine product offerings and marketing approaches.
+
+7. **Customer Engagement:**
+   - **Community Building:**
+     - Engage with customer groups to build brand loyalty and gain deeper insights into their preferences.
+   - **Responsive Customer Service:**
+     - Prioritize excellent service, especially for the dominant adult low-income segment, to foster long-term relationships.
+
+### **Implementation Pathway:**
+
+- **Short-Term:**
+  - Focus on inventory adjustments and targeted marketing campaigns for key segments and high-value SKUs.
+- **Medium-Term:**
+  - Develop and refine products based on customer segment feedback and sales data analysis.
+- **Long-Term:**
+  - Invest in technology and processes to enhance understanding of customer preferences, enabling agile supply chain management.
+
+By following these recommendations, SmartHome Solutions Inc. can better align its products and services with the diverse needs of its customer base, optimizing both customer satisfaction and operational efficiency.
+
+---
